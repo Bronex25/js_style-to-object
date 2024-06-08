@@ -6,14 +6,14 @@
 
 Implement a `convertToObject` function that takes a string with styles and returns an object where CSS declarations are converted to keys and values.
 
-Example: 
+Example:
 
 ```javascript
 'use strict';
 
 const complexStylesString = `
   background-color:      #fff;
--webkit-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius     : 5px;
   border: 1px solid #e8e8e8;
   -webkit-box-sizing: border-box;
@@ -76,5 +76,5 @@ console.log(result === {
   'user-select': 'none',
   'white-space': 'nowrap',
   width: 'auto',
-}) // outputs true; 
+}) // outputs true;
 ```
